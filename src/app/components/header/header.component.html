@@ -1,6 +1,6 @@
 <div class="row component grey-text text-darken-2 valign-wrapper">
     <div class="col l2 left">
-        <img class="imagePiPi" src="../../../assets/images/pipi_popo_cake.png"/>
+        <a href=""><img class="imagePiPi" src="../../../assets/images/pipi_popo_cake.png"/></a>
     </div>
     <div class="col l1 pull-l1 left center-align" >
         <p>PiPi PoPo's <br> Bakery</p>
@@ -20,6 +20,19 @@
         <a class="btn-floating btn-large waves-effect component"><img class="imageIcon" src="../../../assets/images/cart.png" /></a>    
     </div>
 </div>
-<div>
-    Menu
-</div>
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+  <li><a class="menuButtons" href="catalogue/cakes" style="color: #F7DA80">Cakes</a></li>
+  <li><a class="menuButtons" href="catalogue/drinks" style="color: #F7DA80">Drinks</a></li>
+  <li><a class="menuButtons" href="catalogue/specialties" style="color: #F7DA80">Specialties</a></li>
+</ul>
+<nav>
+  <div class="nav-wrapper menu">
+    <ul class="left hide-on-med-and-down">
+      <li><a class="menuButtons" href="about-us" style="color:#634118">About Us</a></li>
+      <li><a class="dropdown-trigger menuButtons" href="#!" data-target="dropdown1" style="color:#634118">Catalogue</a></li>
+      <li><a class="menuButtons" href="contact-us" style="color:#634118">Contact Us</a></li>
+      <li><a class="menuButtons" href="locations" style="color:#634118">Locations</a></li>
+    </ul>
+  </div>
+</nav>

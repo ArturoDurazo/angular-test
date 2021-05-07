@@ -1,3 +1,10 @@
 .banner{
     width: auto;
+    height: 99%;
+}
+
+.test{
+    border-width: 1px;
+    border-style: solid;
+    border-color: magenta;
 }

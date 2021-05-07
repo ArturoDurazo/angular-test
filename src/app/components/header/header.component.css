@@ -53,8 +53,34 @@ p{
     font-size: x-large;
 }
 
+.menu{
+    background-color: #C9B47F;
+    border-color: #C9B47F;
+}
+
+.dropdown-content{
+    background-color: #875F2F;
+}
+
+.dropdown-content li{
+    background-color: #875F2F;
+    color: #F7DA80;
+}
+
 .test{
     border-width: 1px;
     border-style: solid;
     border-color: magenta;
 }
+
+.menuButtons{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #C9B47F;
+    font-size: large;
+}
+
+.menuButtons a.active {
+    background-color:#888;
+    color:#000;
+} /*Background and text color when a tab is active*/
