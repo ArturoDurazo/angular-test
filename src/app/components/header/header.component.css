@@ -79,8 +79,3 @@ p{
     border-color: #C9B47F;
     font-size: large;
 }
-
-.menuButtons a.active {
-    background-color:#888;
-    color:#000;
-} /*Background and text color when a tab is active*/

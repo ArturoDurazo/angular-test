@@ -9,8 +9,6 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
 
-  selected: boolean = false;
-
   ngOnInit(): void {    
     var dropdowns = document.querySelectorAll('.dropdown-trigger')
     for (var i = 0; i < dropdowns.length; i++){
