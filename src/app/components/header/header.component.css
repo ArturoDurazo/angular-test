@@ -19,8 +19,16 @@
 .imageIcon{
     height: 30px;
     width: 30px;
-    margin-top: 12px;
-    margin-left: -3px;
+    margin: 12px;
+    margin-right: 20px;
+    
+}
+
+.imageIconCart{
+    height: 30px;
+    width: 30px;
+    margin: 12px;
+    
 }
 
 #search{
