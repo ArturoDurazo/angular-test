@@ -38,11 +38,6 @@
     
 }
 
-#search{
-    background-color: #F7DA80;
-    border-radius: 25px;
-}
-
 .light-blue{
     background-color: #F7DA80;
 }
@@ -89,7 +84,7 @@ p{
 }
 
 .menuButtons{
-    border-width: 1px;
+    border-width: 0px;
     border-style: solid;
     border-color: #C9B47F;
     font-size: large;
