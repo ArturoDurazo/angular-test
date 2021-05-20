@@ -1,0 +1,15 @@
+.background{
+    background-color: #EAE7CD;
+}
+
+.panel{
+    background-color: #EFECEC;
+    min-height: 600px !important;
+    
+}
+
+.full-width {
+    height: 100%;
+    min-height: 700px !important;
+    margin-top: -10px;
+}

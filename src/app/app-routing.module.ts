@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {HomePageComponent} from './components/home-page/home-page.component'
-import {AboutUsComponent} from './components/about-us/about-us.component'
-import {CatalogueComponent} from './components/catalogue/catalogue.component'
-import {CakesComponent} from './components/catalogue/cakes/cakes.component'
-import {DrinksComponent} from './components/catalogue/drinks/drinks.component'
-import {SpecialtiesComponent} from './components/catalogue/specialties/specialties.component'
-import {ContactUsComponent} from './components/contact-us/contact-us.component'
-import {LocationsComponent} from './components/locations/locations.component'
+import { HomePageComponent } from './components/home-page/home-page.component'
+import { AboutUsComponent } from './components/about-us/about-us.component'
+import { CatalogueComponent } from './components/catalogue/catalogue.component'
+import { CakesComponent } from './components/catalogue/cakes/cakes.component'
+import { DrinksComponent } from './components/catalogue/drinks/drinks.component'
+import { SpecialtiesComponent } from './components/catalogue/specialties/specialties.component'
+import { ContactUsComponent } from './components/contact-us/contact-us.component'
+import { LocationsComponent } from './components/locations/locations.component'
 
 const routes: Routes = [
   //path is from where you wanna reach such component

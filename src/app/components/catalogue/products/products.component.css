@@ -1,0 +1,77 @@
+
+.background{
+    background-color: #EAE7CD;
+}
+
+.panel{
+    background-color: #EFECEC;
+    min-height: 600px !important;
+    
+}
+
+.full-width {
+    height: 100%;
+    min-height: 700px !important;
+    margin-top: -10px;
+}
+
+.card{
+    background: rgba(247, 218, 128, 0.4)
+}
+
+.card-content{
+    padding-bottom: 10px;
+}
+
+.title {
+    font-size: 2rem;
+    font-family: Helvetica;
+}
+
+.image{
+    width: 28%;
+    height: 28%;
+    margin-top: -70px;
+    align-items: center;
+    margin-left: 600px;
+}
+
+.price-tag{
+    color:#707070;
+    font-weight: bold;
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.products{
+    margin-left: 62px;
+    margin-right: 63px;
+}
+
+.count{
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    width: 4rem;
+    height: 50px;
+    line-height: 36px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #F7DA80;
+    vertical-align: middle;
+    margin: 0;
+    background: #634118;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+.icon{
+    width: 2rem;
+    vertical-align: middle;
+
+}
+.upDown{
+    height: 50px;
+    background: #634118;
+}

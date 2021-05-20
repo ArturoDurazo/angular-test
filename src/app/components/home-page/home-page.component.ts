@@ -21,7 +21,8 @@ export class HomePageComponent implements OnInit, AfterViewInit {
     document.addEventListener('DOMContentLoaded', function() {
       var elems = document.querySelectorAll('.carousel');
       var instances = M.Carousel.init(elems, {
-        dist:0
+        dist:0,
+        indicators: true
       });
     });
   }
