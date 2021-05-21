@@ -1,91 +1,139 @@
-.component{
-    background-color: #F7DA80;
-}
-
-.imagePiPi{
-    width: 55%; 
-    height: auto;   
-    margin-left: 40px;
-}
-
-#logo{
-    width: 55%; 
-    height: auto;
-}
-
-.row{
-    margin: 0;
-}
-
-.imageTitle{
-    height: 70%;
-    width: 70%;
-    margin-bottom: -70px;
-    margin-top: -50px;
-}
-
-.imageIcon{
-    height: 30px;
-    width: 30px;
-    margin: 12px;
-    margin-right: 20px;
-}
-
-.imageIconCart{
-    height: 30px;
-    width: 30px;
-    margin: 12px;
-    
-}
-
-.light-blue{
-    background-color: #F7DA80;
-}
-
-nav .label-icon.active {
-    color: white !important;
-}
-
-.imageSearch{
-    height: 47px;
-    width: 47px;
-}
-
-.titled {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    height: 120px;
-}
-
-p{
-    font-family:'Segoe UI';
-    font-size: x-large;
-}
-
-.menu{
-    background-color: #C9B47F;
-    border-color: #C9B47F;
-}
-
-.dropdown-content{
-    background-color: #875F2F;
-}
-
-.dropdown-content li{
-    background-color: #875F2F;
-    color: #F7DA80;
-}
-
-.test{
+* {
     border-width: 1px;
     border-style: solid;
     border-color: magenta;
 }
 
-.menuButtons{
-    border-width: 0px;
-    border-style: solid;
-    border-color: #C9B47F;
-    font-size: large;
+/* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+     
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 601px) and (max-width: 767px) {
+    .col{
+        margin: 0;;
+    }
+}
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .imagePiPi{
+        width: 100%; 
+        height: auto;   
+        margin-left: 40px;
+    }
+
+    .imageTitle{
+        width: 80%;
+        height: auto;
+    }
+
+    .imageIcon{
+        height: 30px;
+        width: 30px;
+        margin: 12px;
+        margin-right: 20px;
+    }
+    
+    .imageIconCart{
+        height: 30px;
+        width: 30px;
+        margin: 12px;
+        
+    }
+
+    .component{
+        background-color: #F7DA80;
+    }
+
+ }
+
+ @media only screen and (min-width: 992px) {
+
+    .component{
+        background-color: #F7DA80;
+    }
+    
+    .imagePiPi{
+        width: 55%; 
+        height: auto;   
+        margin-left: 40px;
+    }
+    
+    #logo{
+        width: 55%; 
+        height: auto;
+    }
+    
+    .row{
+        margin: 0;
+    }
+    
+    .imageTitle{
+        width: 80%;
+        height: auto;
+    }
+    
+    .imageIcon{
+        height: 30px;
+        width: 30px;
+        margin: 12px;
+        margin-right: 20px;
+    }
+    
+    .imageIconCart{
+        height: 30px;
+        width: 30px;
+        margin: 12px;
+        
+    }
+    
+    .light-blue{
+        background-color: #F7DA80;
+    }
+    
+    nav .label-icon.active {
+        color: white !important;
+    }
+    
+    .imageSearch{
+        height: 47px;
+        width: 47px;
+    }
+    
+    .titled {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        height: 120px;
+    }
+    
+    p{
+        font-family:'Segoe UI';
+        font-size: x-large;
+    }
+    
+    .menu{
+        background-color: #C9B47F;
+        border-color: #C9B47F;
+    }
+    
+    .dropdown-content{
+        background-color: #875F2F;
+    }
+    
+    .dropdown-content li{
+        background-color: #875F2F;
+        color: #F7DA80;
+    }
+
+    
+    .menuButtons{
+        border-width: 0px;
+        border-style: solid;
+        border-color: #C9B47F;
+        font-size: large;
+    }
+    
 }
