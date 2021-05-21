@@ -1,11 +1,33 @@
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
+.footer-copyright {
+    background-color: #F7DA80;
     color: #616161;
-    text-align: center;
+}
+
+.copy{
+    margin: auto;
+}
+
+.page-footer{
+    background-color: #EFE2AE;
+    color: #616161;
+}
+
+.imageTitle{
+    height: 80%;
+    width: 80%;
+}
+
+.text-end{
+    margin-top: 0;
+}
+
+.bold-link{
+    color: #616161;
+    font-weight: bold;
+}
+
+.bold-link:hover{
+    color: #918b8b;
 }
 
 .row{
