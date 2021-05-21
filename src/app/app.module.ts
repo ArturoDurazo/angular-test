@@ -14,6 +14,8 @@ import { CakesComponent } from './components/catalogue/cakes/cakes.component';
 import { DrinksComponent } from './components/catalogue/drinks/drinks.component';
 import { SpecialtiesComponent } from './components/catalogue/specialties/specialties.component';
 import { ProductsComponent } from './components/catalogue/products/products.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ProductListComponent } from './components/catalogue/product-list/product-list.component';
 
 @NgModule({
   declarations: [
@@ -28,11 +30,13 @@ import { ProductsComponent } from './components/catalogue/products/products.comp
     CakesComponent,
     DrinksComponent,
     SpecialtiesComponent,
-    ProductsComponent
+    ProductsComponent,
+    ProductListComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
