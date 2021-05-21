@@ -3,9 +3,6 @@
         <p class="title">Specialties</p>
     </div>
     <div class="col l10 push-l1">
-        <app-products></app-products>
-        <app-products></app-products>
-        <app-products></app-products>
-
+        <app-products *ngFor="let product of productsService.products" [data]="product"></app-products>
     </div>
 </div>
