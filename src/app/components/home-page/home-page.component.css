@@ -1,10 +1,91 @@
-.banner{
-    width: auto;
-    height: 100%;
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 500px) {
+    .banner{
+        margin-top: 80px;
+        width: auto;
+        height: 60%;
+    }
+    
+    .test{
+        border-width: 1px;
+        border-style: solid;
+        border-color: magenta;
+    }
+
+    .carousel{
+        height: 230px;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 600px) {
+    .banner{
+        margin-top: 40px;
+        width: auto;
+        height: 80%;
+    }
+    
+    .test{
+        border-width: 1px;
+        border-style: solid;
+        border-color: magenta;
+    }
+
+    .carousel{
+        height: 320px;
+    }
 }
 
-.test{
-    border-width: 1px;
-    border-style: solid;
-    border-color: magenta;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 601px) and (max-width: 690px) {
+    .banner{
+        margin-top: 40px;
+        width: auto;
+        height: 80%;
+    }
+    
+    .test{
+        border-width: 1px;
+        border-style: solid;
+        border-color: magenta;
+    }
+
+    .carousel{
+        height: 320px;
+    }
 }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 691px) and (max-width: 1079px) {
+    .banner{
+        width: auto;
+        height: 100%;
+    }
+    
+    .test{
+        border-width: 1px;
+        border-style: solid;
+        border-color: magenta;
+    }
+
+    .carousel{
+        height: 376.4px;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    .banner{
+        width: auto;
+        height: 100%;
+    }
+    
+    .test{
+        border-width: 1px;
+        border-style: solid;
+        border-color: magenta;
+    }
+
+    .carousel{
+        height: 700px;
+    }
+}
+

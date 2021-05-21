@@ -1,5 +1,5 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
-import * as M from 'materialize-css'
+import * as M from 'materialize-css';
 
 
 @Component({
@@ -25,6 +25,12 @@ export class HomePageComponent implements OnInit, AfterViewInit {
         indicators: true
       });
     });
+  }
+
+  onResize(event:any) {
+    console.log( event.target.innerWidth );
+    window.location.href = window.location + '/'
+    
   }
 
 }

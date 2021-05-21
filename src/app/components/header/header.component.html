@@ -1,36 +1,55 @@
 <div class="row component valign-wrapper">
-    <div class="col m3 l2">
-        <a href=""><img class="imagePiPi" src="assets/images/pipi_popo_cake.png"/></a>
+    <div class="beg col m2 l2">
+        <a href=""><img class="imagePiPi hide-on-small-and-down" src="assets/images/pipi_popo_cake.png"/></a>
     </div>
-    <div class="col m3 l7 center-align">
+    <div class="col s9 pull-s1 m5 l7 center-align">
       <img class="imageTitle" src="assets/images/title 2.png" />
     </div>
-    <div class="col m2 l2 center-align">
+    <div class="hide-on-small-and-down col s3 m3 l2 center-align">
         <a class="waves-effect waves-light"><img class="imageIcon" src="assets/icons/white-youtube.png" /></a>
         <a class="waves-effect waves-light"><img class="imageIcon" src="assets/icons/white-instagram.png" /></a>
         <a class="waves-effect waves-light"><img class="imageIcon" src="assets/icons/white-twitter.png" /></a>    
         <a class="waves-effect waves-light"><img class="imageIcon" src="assets/icons/white-facebook.png" /></a>        
     </div>
-    <div class="col m2 l1">
-      <a class="btn-floating btn-large waves-effect waves-light component modal-trigger btn" data-target="modal1"><img class="imageIconCart" src="/assets/images/cart.png" /></a>
+    <div class="col s3  m2 l1">
+      <a class="holder btn-floating btn-large waves-effect waves-light component modal-trigger btn" data-target="modal1"><img class="imageIconCart" src="/assets/images/cart.png" /></a>
     </div>
 </div>
+
 <!-- Dropdown Structure -->
-<ul id="dropdown1" class="dropdown-content">
-  <li><a class="menuButtons" href="catalogue/cakes" style="color: #F7DA80">Cakes</a></li>
-  <li><a class="menuButtons" href="catalogue/drinks" style="color: #F7DA80">Drinks</a></li>
-  <li><a class="menuButtons" href="catalogue/specialties" style="color: #F7DA80">Specialties</a></li>
-</ul>
-<nav>
-  <div class="nav-wrapper menu">
-    <ul class="left hide-on-med-and-down">
-      <li><a class="menuButtons" href="about-us" style="color:#634118">About Us</a></li>
-      <li><a class="dropdown-trigger menuButtons" href="#!" data-target="dropdown1" style="color:#634118">Catalogue</a></li>
-      <li><a class="menuButtons" href="contact-us" style="color:#634118">Contact Us</a></li>
-      <li><a class="menuButtons" href="locations" style="color:#634118">Locations</a></li>
-    </ul>
-  </div>
-</nav>
+<div class="row">
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a class="menuButtons" href="catalogue/cakes" style="color: #F7DA80">Cakes</a></li>
+    <li><a class="menuButtons" href="catalogue/drinks" style="color: #F7DA80">Drinks</a></li>
+    <li><a class="menuButtons" href="catalogue/specialties" style="color: #F7DA80">Specialties</a></li>
+  </ul>
+  <ul id="dropdown2" class="dropdown-content">
+    <li><a class="menuButtons" href="catalogue/cakes" style="color: #F7DA80">Cakes</a></li>
+    <li><a class="menuButtons" href="catalogue/drinks" style="color: #F7DA80">Drinks</a></li>
+    <li><a class="menuButtons" href="catalogue/specialties" style="color: #F7DA80">Specialties</a></li>
+  </ul>
+  <nav>
+    <div class="nav-wrapper menu">
+      <a href="#" data-target="mobile-demo" class="hide-on-med-and-up sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="left hide-on-small-and-down">
+        <li><a class="menuButtons" href="about-us" style="color:#634118">About Us</a></li>
+        <li><a class="dropdown-trigger menuButtons" href="#!" data-target="dropdown2" style="color:#634118">Catalogue</a></li>
+        <li><a class="menuButtons" href="contact-us" style="color:#634118">Contact Us</a></li>
+        <li><a class="menuButtons" href="locations" style="color:#634118">Locations</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav component" id="mobile-demo">
+    <li><a class="menuButtons" href="" style="color:#634118">Home Page</a></li>
+    <li><a class="menuButtons" href="about-us" style="color:#634118">About Us</a></li>
+    <li><a class="dropdown-trigger menuButtons" href="#!" data-target="dropdown1" style="color:#634118">Catalogue</a></li>
+    <li><a class="menuButtons" href="contact-us" style="color:#634118">Contact Us</a></li>
+    <li><a class="menuButtons" href="locations" style="color:#634118">Locations</a></li>
+  </ul>
+</div>
+
+<!-- Che carro qlro -->
 <div id="modal1" class="modal bottom-sheet component">
   <div class="modal-content">
     <h4>Shopping Cart</h4>
