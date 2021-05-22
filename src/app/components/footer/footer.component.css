@@ -37,6 +37,8 @@
 }
 
 
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
      .mobile {
@@ -84,10 +86,6 @@
         font-family:'Segoe UI';
         font-size: large;
     }
-
-    ul{
-        margin-top: 10px;
-    }
 }
 
 @media only screen and (min-width: 1080px) {
@@ -95,9 +93,15 @@
         margin-top: 0px;
     }
     
+    ul li {
+        width:10em;
+        float:left;
+      }
+    
     p{
         font-family:'Segoe UI';
-        font-size: x-large;
+        font-size: large;
     }
+
 }
 
