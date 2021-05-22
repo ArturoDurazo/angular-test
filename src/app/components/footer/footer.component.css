@@ -1,24 +1,5 @@
 
 /* General */
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-     
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 601px) and (max-width: 767px) {
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 768px) and (max-width: 1079px) {
-
-}
-
-@media only screen and (min-width: 1080px) {
-}
-
 .footer-copyright {
     background-color: #F7DA80;
     color: #616161;
@@ -55,7 +36,68 @@
     margin: 0;
 }
 
-p{
-    font-family:'Segoe UI';
-    font-size: x-large;
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+     .mobile {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+     }
+
+     h5 {
+         margin-top: 0;
+         text-align: center;
+     }
+     ul {
+         text-align: center;
+     }
+
+     p {
+         text-align: center;
+     }
 }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+    .title{
+        margin: 0px;
+    }
+    
+    p{
+        font-family:'Segoe UI';
+        font-size: large;
+    }
+
+    ul{
+        margin-top: 10px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1079px) {
+    .title{
+        margin: 0px;
+    }
+    
+    p{
+        font-family:'Segoe UI';
+        font-size: large;
+    }
+
+    ul{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    .title{
+        margin-top: 0px;
+    }
+    
+    p{
+        font-family:'Segoe UI';
+        font-size: x-large;
+    }
+}
+
