@@ -1,4 +1,44 @@
+    /*General*/
+    .component{
+        background-color: #F7DA80;
+    }
 
+    /*Navbar*/
+
+    nav .label-icon.active {
+        color: white !important;
+    }
+
+    p {
+        font-family:'Segoe UI';
+        font-size: x-large;
+    }
+
+    .menu{
+        background-color: #C9B47F;
+        border-color: #C9B47F;
+    }
+
+    .dropdown-content{
+        background-color: #875F2F;
+    }
+
+    .dropdown-content li{
+        background-color: #875F2F;
+        color: #F7DA80;
+    }
+
+    .menuButtons{
+        border-width: 0px;
+        border-style: solid;
+        border-color: #C9B47F;
+        font-size: large;
+    }
+
+    i.icon-color {
+        color: #875F2F;
+        font-size: 35px;
+    }
 
 /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 600px) {
@@ -27,41 +67,7 @@
         width: 30px;
         margin: 10px;
     }
-    /*Navbar*/
     
-    nav .label-icon.active {
-        color: white !important;
-    }
-    
-    p {
-        font-family:'Segoe UI';
-        font-size: x-large;
-    }
-    
-    .menu{
-        background-color: #C9B47F;
-        border-color: #C9B47F;
-    }
-    
-    .dropdown-content{
-        background-color: #875F2F;
-    }
-    
-    .dropdown-content li{
-        background-color: #875F2F;
-        color: #F7DA80;
-    }
-    
-    .menuButtons{
-        border-width: 0px;
-        border-style: solid;
-        border-color: #C9B47F;
-        font-size: large;
-        margin: auto;
-    }
-
-
-
     /*Miscellaneous*/
     .row{
         margin-bottom: 0;
@@ -75,11 +81,6 @@
         width: 50px;
         height: 50px;
     }
-
-    .component{
-        background-color: #F7DA80;
-    }
-
  }
  
  /* Medium devices (landscape tablets, 768px and up) */
@@ -110,39 +111,7 @@
         width: 30px;
         margin: 12px;
     }
-    /*Navbar*/
-    
-    nav .label-icon.active {
-        color: white !important;
-    }
-    
-    p {
-        font-family:'Segoe UI';
-        font-size: x-large;
-    }
-    
-    .menu{
-        background-color: #C9B47F;
-        border-color: #C9B47F;
-    }
-    
-    .dropdown-content{
-        background-color: #875F2F;
-    }
-    
-    .dropdown-content li{
-        background-color: #875F2F;
-        color: #F7DA80;
-    }
-    
-    .menuButtons{
-        border-width: 0px;
-        border-style: solid;
-        border-color: #C9B47F;
-        font-size: large;
-        margin: auto;
-    }
-
+   
     /*Miscellaneous*/
     .row{
         margin-bottom: 0;
@@ -155,11 +124,6 @@
     .holder{
         margin-left: 25px;
     }
-
-    .component{
-        background-color: #F7DA80;
-    }
-
 }
  
  /* Large devices (laptops/desktops, 992px and up) */
@@ -193,40 +157,14 @@
 
     /*Navbar*/
 
-    nav .label-icon.active {
-        color: white !important;
-    }
-    
-    p {
-        font-family:'Segoe UI';
-        font-size: x-large;
-    }
-    
-    .menu{
-        background-color: #C9B47F;
-        border-color: #C9B47F;
-    }
-    
-    .dropdown-content{
-        background-color: #875F2F;
-    }
-    
-    .dropdown-content li{
-        background-color: #875F2F;
-        color: #F7DA80;
-    }
-    
+   
     .menuButtons{
-        border-width: 0px;
-        border-style: solid;
-        border-color: #C9B47F;
-        font-size: large;
         margin: auto;
     }
 
     /*Miscellaneous*/
 
-    .row{
+    .row {
         margin-bottom: 0;
     }
     
@@ -238,9 +176,7 @@
         margin-left: 25px;
     }
 
-    .component{
-        background-color: #F7DA80;
-    }
+
 
  }
 
@@ -265,10 +201,10 @@
 }
 
 .imageIcon{
-    height: 30px;
-    width: 30px;
-    margin: 12px;
-    margin-right: 20px;
+    height: 25px;
+    width: 25px;
+    margin: 10px;
+    margin-right: 10px;
 }
 
 .imageIconCart{
@@ -284,45 +220,16 @@
     height: 120px;
 }
 
-/*Navbar*/
-
-nav .label-icon.active {
-    color: white !important;
-}
-
-p {
-    font-family:'Segoe UI';
-    font-size: x-large;
-}
-
-.menu{
-    background-color: #C9B47F;
-    border-color: #C9B47F;
-}
-
-.dropdown-content{
-    background-color: #875F2F;
-}
-
-.dropdown-content li{
-    background-color: #875F2F;
-    color: #F7DA80;
-}
-
-.menuButtons{
-    border-width: 0px;
-    border-style: solid;
-    border-color: #C9B47F;
-    font-size: large;
-}
-
 /*Miscellaneous*/
-
-    .component{
-        background-color: #F7DA80;
-    }
     
     .row{
         margin: 0;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .imageIcon{
+        height: 30px;
+        width: 30px;
     }
 }
