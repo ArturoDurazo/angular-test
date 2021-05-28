@@ -16,6 +16,7 @@ import { SpecialtiesComponent } from './components/catalogue/specialties/special
 import { ProductsComponent } from './components/catalogue/products/products.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProductListComponent } from './components/catalogue/product-list/product-list.component';
+import { TwinkieComponent } from './components/catalogue/specialties/twinkie/twinkie.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { ProductListComponent } from './components/catalogue/product-list/produc
     SpecialtiesComponent,
     ProductsComponent,
     ProductListComponent,
+    TwinkieComponent,
   ],
   imports: [
     BrowserModule,

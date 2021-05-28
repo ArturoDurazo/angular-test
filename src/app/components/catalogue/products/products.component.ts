@@ -15,8 +15,17 @@ export class ProductsComponent implements OnInit {
   value = '';
   bool = false;
 
-  ngOnInit(): void {
-    //console.log(this.counter);
+  ngOnInit(): void { 
+    var dropdowns = document.querySelectorAll('.dropdown-trigger')
+    for (var i = 0; i < dropdowns.length; i++){
+        M.Dropdown.init(dropdowns[i]);
+    }   
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.modal');
+      var instances = M.Modal.init(elems);
+      var elems2 = document.querySelectorAll('.sidenav');
+      var instances2 = M.Sidenav.init(elems2, {});
+    });
   }
 
   increment(){

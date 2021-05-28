@@ -6,6 +6,7 @@ import { CatalogueComponent } from './components/catalogue/catalogue.component'
 import { CakesComponent } from './components/catalogue/cakes/cakes.component'
 import { DrinksComponent } from './components/catalogue/drinks/drinks.component'
 import { SpecialtiesComponent } from './components/catalogue/specialties/specialties.component'
+import { TwinkieComponent } from './components/catalogue/specialties/twinkie/twinkie.component'
 import { ContactUsComponent } from './components/contact-us/contact-us.component'
 import { LocationsComponent } from './components/locations/locations.component'
 
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path: 'catalogue/cakes', component: CakesComponent},
   {path: 'catalogue/drinks', component: DrinksComponent},
   {path: 'catalogue/specialties', component: SpecialtiesComponent},
+  {path: 'catalogue/specialties/twinkie', component: TwinkieComponent},
   {path: 'contact-us', component: ContactUsComponent},
   {path: 'locations', component: LocationsComponent},
 ];

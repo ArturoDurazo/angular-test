@@ -2,6 +2,9 @@
  *{
     font-family: Helvetica;
  }
+ .button-color{
+    background-color: #634118;
+}
 .card {
     background: rgba(247, 218, 128, 0.4)
 }
