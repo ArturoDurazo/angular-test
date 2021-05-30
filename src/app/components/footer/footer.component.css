@@ -36,7 +36,9 @@
     margin: 0;
 }
 
-
+.padd {
+    padding-bottom: 20px;
+}
 
 
 /* Extra small devices (phones, 600px and down) */
@@ -58,6 +60,9 @@
      p {
          text-align: center;
      }
+     .padd {
+        padding-bottom: 5px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -74,6 +79,10 @@
     ul{
         margin-top: 10px;
     }
+
+    .padd {
+        padding-bottom: 10px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -85,6 +94,9 @@
     p{
         font-family:'Segoe UI';
         font-size: medium;
+    }
+    .padd {
+        padding-bottom: 15px;
     }
 }
 
