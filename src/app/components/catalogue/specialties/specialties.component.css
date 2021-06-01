@@ -1,8 +1,8 @@
-.background{
+.background {
     background-color: #EAE7CD;
 }
 
-.title{
+.title {
     color:#707070;
     font-weight: bold;
     font-family: Helvetica;
@@ -11,7 +11,7 @@
     margin: 15px;
 }
 
-.panel{
+.panel {
     background-color: #EFECEC;
 }
 
